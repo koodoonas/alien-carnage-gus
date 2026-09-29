@@ -1,0 +1,16 @@
+__pycache__/
+*.pyc
+*.ACB
+*.LOG
+*.rar
+*.iso
+*.EXE
+*.HSB
+*.ICO
+HARRY*.?0
+HARRY*.-0
+/analysis/
+/tests/
+/dist/*
+!/dist/ACGUS.COM
+!/dist/INSTALL.COM

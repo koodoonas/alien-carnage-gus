@@ -1,0 +1,557 @@
+[
+  {
+    "name": "HARRY10.-0",
+    "size": 33488,
+    "sha256": "0f04216c32f060c642081c305afb9b3e260f7077ca7b65e2f3b62b17086878e0",
+    "crc32": 2016126581,
+    "patched_sha256": "78c02ab7cd4e1d0efd216eaa8e091cffbca7fc94c760a11d7c05a2cabb4aa7e5",
+    "patched_crc32": 302333399,
+    "patches": [
+      {
+        "kind": "sfx",
+        "offset": 10806,
+        "hex": "5589e5b802accd655dca0800"
+      },
+      {
+        "kind": "init",
+        "offset": 11784,
+        "hex": "bb34d3b800accd65cb"
+      },
+      {
+        "kind": "shutdown",
+        "offset": 12261,
+        "hex": "b803accd65cb"
+      },
+      {
+        "kind": "song",
+        "offset": 12371,
+        "hex": "5589e5bb76cfb801accd655dca0200"
+      },
+      {
+        "kind": "pause",
+        "offset": 11605,
+        "hex": "bb83ceb804accd65cb"
+      },
+      {
+        "kind": "resume",
+        "offset": 11615,
+        "hex": "bb83ceb805accd65cb"
+      },
+      {
+        "kind": "early_config",
+        "offset": 12485,
+        "hex": "c60634d302"
+      }
+    ]
+  },
+  {
+    "name": "HARRY11.-0",
+    "size": 28064,
+    "sha256": "6dab256c40c1a20195dd790b7d87fee20592499b77a7a0cd2645acb463279761",
+    "crc32": 1942381815,
+    "patched_sha256": "be3df8b11524878f8cd481292584e531cb81a64814db329d60784dd617880d74",
+    "patched_crc32": 22727400,
+    "patches": [
+      {
+        "kind": "sfx",
+        "offset": 10496,
+        "hex": "5589e5b802accd655dca0800"
+      },
+      {
+        "kind": "shutdown",
+        "offset": 10670,
+        "hex": "b803accd65cb"
+      },
+      {
+        "kind": "pause",
+        "offset": 10660,
+        "hex": "bb67cbb804accd65cb"
+      },
+      {
+        "kind": "early_config",
+        "offset": 10806,
+        "hex": "c6062ad002"
+      }
+    ]
+  },
+  {
+    "name": "HARRY13.-0",
+    "size": 30560,
+    "sha256": "7398b8aa5ef89ffa40ccfd68c03906e8cf40f9c8dcd93208d3aa52694145b34b",
+    "crc32": 952646364,
+    "patched_sha256": "e48ff451aaf6f1d07939e37da6f7fd73740a9fc67ea93b14db87f69df50d97b3",
+    "patched_crc32": 3824779755,
+    "patches": [
+      {
+        "kind": "sfx",
+        "offset": 8390,
+        "hex": "5589e5b802accd655dca0800"
+      },
+      {
+        "kind": "init",
+        "offset": 9019,
+        "hex": "bbc6d0b800accd65cb"
+      },
+      {
+        "kind": "shutdown",
+        "offset": 9496,
+        "hex": "b803accd65cb"
+      },
+      {
+        "kind": "song",
+        "offset": 9606,
+        "hex": "5589e5bb08cdb801accd655dca0200"
+      },
+      {
+        "kind": "pause",
+        "offset": 8840,
+        "hex": "bb15ccb804accd65cb"
+      },
+      {
+        "kind": "resume",
+        "offset": 8850,
+        "hex": "bb15ccb805accd65cb"
+      },
+      {
+        "kind": "early_config",
+        "offset": 9747,
+        "hex": "c606c6d002"
+      }
+    ]
+  },
+  {
+    "name": "HARRY14.-0",
+    "size": 37776,
+    "sha256": "97c8b6bedfefee14beb2e94e422dda142b0c03a16b4c8dd42f8df00289e50b59",
+    "crc32": 2534768087,
+    "patched_sha256": "6ead9b765eb9a109c269decb70529a55f510e926d2640e9a4caccd4c504baf5d",
+    "patched_crc32": 3971618966,
+    "patches": [
+      {
+        "kind": "sfx",
+        "offset": 15094,
+        "hex": "5589e5b802accd655dca0800"
+      },
+      {
+        "kind": "init",
+        "offset": 15723,
+        "hex": "bb76dfb800accd65cb"
+      },
+      {
+        "kind": "shutdown",
+        "offset": 16200,
+        "hex": "b803accd65cb"
+      },
+      {
+        "kind": "song",
+        "offset": 16310,
+        "hex": "5589e5bba4dbb801accd655dca0200"
+      },
+      {
+        "kind": "pause",
+        "offset": 15544,
+        "hex": "bbb1dab804accd65cb"
+      },
+      {
+        "kind": "resume",
+        "offset": 15554,
+        "hex": "bbb1dab805accd65cb"
+      },
+      {
+        "kind": "early_config",
+        "offset": 16451,
+        "hex": "c60676df02"
+      }
+    ]
+  },
+  {
+    "name": "HARRY15.-0",
+    "size": 33184,
+    "sha256": "571fdcc9591a2cffbf47842a55f2e0ef765c8fa3bb8f460015e7b2dd95146870",
+    "crc32": 3260601142,
+    "patched_sha256": "e51a5922947de2aebd2e54a2e3f6b41ddbfef243942c2da2116db69728965d73",
+    "patched_crc32": 3993618044,
+    "patches": [
+      {
+        "kind": "sfx",
+        "offset": 8998,
+        "hex": "5589e5b802accd655dca0800"
+      },
+      {
+        "kind": "init",
+        "offset": 9627,
+        "hex": "bb5ad3b800accd65cb"
+      },
+      {
+        "kind": "shutdown",
+        "offset": 10104,
+        "hex": "b803accd65cb"
+      },
+      {
+        "kind": "song",
+        "offset": 10214,
+        "hex": "5589e5bb64c1b801accd655dca0200"
+      },
+      {
+        "kind": "pause",
+        "offset": 9448,
+        "hex": "bb71c0b804accd65cb"
+      },
+      {
+        "kind": "resume",
+        "offset": 9458,
+        "hex": "bb71c0b805accd65cb"
+      },
+      {
+        "kind": "early_config",
+        "offset": 10355,
+        "hex": "c6065ad302"
+      }
+    ]
+  },
+  {
+    "name": "HARRY2.-0",
+    "size": 32896,
+    "sha256": "f6f4952eed740ab0df28cfa965fc539fec5c5c76ac8164dff829e7269c76c8c9",
+    "crc32": 2146861977,
+    "patched_sha256": "474f271f32c71634e0fa59c5dc1e59e02506ecf70f8292975ee59cb47558db63",
+    "patched_crc32": 3103536035,
+    "patches": [
+      {
+        "kind": "sfx",
+        "offset": 10454,
+        "hex": "5589e5b802accd655dca0800"
+      },
+      {
+        "kind": "init",
+        "offset": 11083,
+        "hex": "bb4cd4b800accd65cb"
+      },
+      {
+        "kind": "shutdown",
+        "offset": 11560,
+        "hex": "b803accd65cb"
+      },
+      {
+        "kind": "song",
+        "offset": 11670,
+        "hex": "5589e5bb7ad0b801accd655dca0200"
+      },
+      {
+        "kind": "pause",
+        "offset": 10904,
+        "hex": "bb87cfb804accd65cb"
+      },
+      {
+        "kind": "resume",
+        "offset": 10914,
+        "hex": "bb87cfb805accd65cb"
+      },
+      {
+        "kind": "early_config",
+        "offset": 11811,
+        "hex": "c6064cd402"
+      }
+    ]
+  },
+  {
+    "name": "HARRY3.-0",
+    "size": 37680,
+    "sha256": "dab1db2eb798ac7bebc0f625d88771d09fa4a6a45f38c4ac379bfa6cbe51807f",
+    "crc32": 2254429548,
+    "patched_sha256": "7690480d54a0881cd76e3fc3b727b6c4db5c2d1fa4807747dafa2d067f5e062f",
+    "patched_crc32": 2094305902,
+    "patches": [
+      {
+        "kind": "sfx",
+        "offset": 14998,
+        "hex": "5589e5b802accd655dca0800"
+      },
+      {
+        "kind": "init",
+        "offset": 15627,
+        "hex": "bb7ce1b800accd65cb"
+      },
+      {
+        "kind": "shutdown",
+        "offset": 16104,
+        "hex": "b803accd65cb"
+      },
+      {
+        "kind": "song",
+        "offset": 16214,
+        "hex": "5589e5bbaaddb801accd655dca0200"
+      },
+      {
+        "kind": "pause",
+        "offset": 15448,
+        "hex": "bbb7dcb804accd65cb"
+      },
+      {
+        "kind": "resume",
+        "offset": 15458,
+        "hex": "bbb7dcb805accd65cb"
+      },
+      {
+        "kind": "early_config",
+        "offset": 16355,
+        "hex": "c6067ce102"
+      }
+    ]
+  },
+  {
+    "name": "HARRY4.-0",
+    "size": 29312,
+    "sha256": "f31a15ede2463996e9d9f63d3732cb01d5c93ce0208f81ad4e3166186d86d824",
+    "crc32": 956979837,
+    "patched_sha256": "3ed0fd500ed569d3e57a2282c54f28334a58c7e2b6406b578d8e88a95a8d742d",
+    "patched_crc32": 512160210,
+    "patches": [
+      {
+        "kind": "sfx",
+        "offset": 7350,
+        "hex": "5589e5b802accd655dca0800"
+      },
+      {
+        "kind": "init",
+        "offset": 8328,
+        "hex": "bba65eb800accd65cb"
+      },
+      {
+        "kind": "shutdown",
+        "offset": 8805,
+        "hex": "b803accd65cb"
+      },
+      {
+        "kind": "song",
+        "offset": 8915,
+        "hex": "5589e5bbee5ab801accd655dca0200"
+      },
+      {
+        "kind": "pause",
+        "offset": 8149,
+        "hex": "bbfb59b804accd65cb"
+      },
+      {
+        "kind": "resume",
+        "offset": 8159,
+        "hex": "bbfb59b805accd65cb"
+      },
+      {
+        "kind": "early_config",
+        "offset": 9029,
+        "hex": "c606a65e02"
+      }
+    ]
+  },
+  {
+    "name": "HARRY5.-0",
+    "size": 110272,
+    "sha256": "fe254d20be9227cc183d511b6703a0397d8636ab47150b64d072eaa9e49a7d8f",
+    "crc32": 2793177760,
+    "patched_sha256": "46d51c324c7fa084c958dee55106a3309fb17dfc7e6e22ae795453314e7b3cf5",
+    "patched_crc32": 209909235,
+    "patches": [
+      {
+        "kind": "sfx",
+        "offset": 84758,
+        "hex": "5589e5b802accd655dca0800"
+      },
+      {
+        "kind": "init",
+        "offset": 85736,
+        "hex": "bb18f7b800accd65cb"
+      },
+      {
+        "kind": "shutdown",
+        "offset": 86213,
+        "hex": "b803accd65cb"
+      },
+      {
+        "kind": "song",
+        "offset": 86323,
+        "hex": "5589e5bb02f7b801accd655dca0200"
+      },
+      {
+        "kind": "pause",
+        "offset": 85557,
+        "hex": "bb0ff6b804accd65cb"
+      },
+      {
+        "kind": "resume",
+        "offset": 85567,
+        "hex": "bb0ff6b805accd65cb"
+      },
+      {
+        "kind": "early_config",
+        "offset": 86464,
+        "hex": "c60618f702"
+      }
+    ]
+  },
+  {
+    "name": "HARRY7.-0",
+    "size": 18096,
+    "sha256": "e69af5fc32459db8dca1fc7c15464f0476f67748cb5df9c61c9891b5032d25d7",
+    "crc32": 2210627799,
+    "patched_sha256": "6bc4db0b91e849cffb1f96b7bd8c05440eff8fdb53d1276339de1a4e32f6d949",
+    "patched_crc32": 2481962930,
+    "patches": [
+      {
+        "kind": "sfx",
+        "offset": 7952,
+        "hex": "5589e5b802accd655dca0800"
+      },
+      {
+        "kind": "shutdown",
+        "offset": 8126,
+        "hex": "b803accd65cb"
+      },
+      {
+        "kind": "pause",
+        "offset": 8116,
+        "hex": "bb69c5b804accd65cb"
+      },
+      {
+        "kind": "early_config",
+        "offset": 8291,
+        "hex": "c60680c802"
+      }
+    ]
+  },
+  {
+    "name": "HARRY8.-0",
+    "size": 36320,
+    "sha256": "88774afb23e0147ce4f35a47d96819f1ffc8c6c8707211c82582983a3f432f62",
+    "crc32": 2537069812,
+    "patched_sha256": "a47e4d4e6d2c9de5c6e153eec0ca4cb6a7437c60ee532f525c6169e253e58725",
+    "patched_crc32": 4273428589,
+    "patches": [
+      {
+        "kind": "sfx",
+        "offset": 13878,
+        "hex": "5589e5b802accd655dca0800"
+      },
+      {
+        "kind": "init",
+        "offset": 14507,
+        "hex": "bb4ad4b800accd65cb"
+      },
+      {
+        "kind": "shutdown",
+        "offset": 14984,
+        "hex": "b803accd65cb"
+      },
+      {
+        "kind": "song",
+        "offset": 15094,
+        "hex": "5589e5bb8cd0b801accd655dca0200"
+      },
+      {
+        "kind": "pause",
+        "offset": 14328,
+        "hex": "bb99cfb804accd65cb"
+      },
+      {
+        "kind": "resume",
+        "offset": 14338,
+        "hex": "bb99cfb805accd65cb"
+      },
+      {
+        "kind": "early_config",
+        "offset": 15235,
+        "hex": "c6064ad402"
+      }
+    ]
+  },
+  {
+    "name": "HARRY9.-0",
+    "size": 40592,
+    "sha256": "9677d17f7e2eb3cfee5bf9ebc043caa3e2a67dc6972ecf5ec12791fb1ec2c446",
+    "crc32": 3838056948,
+    "patched_sha256": "94f76581519009b8229aff884723677a4c1fc95fa2a9179322ae2b6890da5693",
+    "patched_crc32": 2180374493,
+    "patches": [
+      {
+        "kind": "sfx",
+        "offset": 18214,
+        "hex": "5589e5b802accd655dca0800"
+      },
+      {
+        "kind": "init",
+        "offset": 18843,
+        "hex": "bb54e8b800accd65cb"
+      },
+      {
+        "kind": "shutdown",
+        "offset": 19320,
+        "hex": "b803accd65cb"
+      },
+      {
+        "kind": "song",
+        "offset": 19430,
+        "hex": "5589e5bb96e4b801accd655dca0200"
+      },
+      {
+        "kind": "pause",
+        "offset": 18664,
+        "hex": "bba3e3b804accd65cb"
+      },
+      {
+        "kind": "resume",
+        "offset": 18674,
+        "hex": "bba3e3b805accd65cb"
+      },
+      {
+        "kind": "early_config",
+        "offset": 19544,
+        "hex": "c60654e802"
+      }
+    ]
+  },
+  {
+    "name": "HARRY99.-0",
+    "size": 22896,
+    "sha256": "e310f2e0410d7e669c2d3537dee046e088895500ed780d432294efe175986712",
+    "crc32": 275902529,
+    "patched_sha256": "9cb5887cb4475ff6aca1508344a868d95975be04ab8ec1c495aed625ac5d41a0",
+    "patched_crc32": 528939134,
+    "patches": [
+      {
+        "kind": "sfx",
+        "offset": 8486,
+        "hex": "5589e5b802accd655dca0800"
+      },
+      {
+        "kind": "init",
+        "offset": 9115,
+        "hex": "bb24c7b800accd65cb"
+      },
+      {
+        "kind": "shutdown",
+        "offset": 9592,
+        "hex": "b803accd65cb"
+      },
+      {
+        "kind": "song",
+        "offset": 9702,
+        "hex": "5589e5bbfcc4b801accd655dca0200"
+      },
+      {
+        "kind": "pause",
+        "offset": 8936,
+        "hex": "bb09c4b804accd65cb"
+      },
+      {
+        "kind": "resume",
+        "offset": 8946,
+        "hex": "bb09c4b805accd65cb"
+      },
+      {
+        "kind": "early_config",
+        "offset": 9816,
+        "hex": "c60624c702"
+      }
+    ]
+  }
+]
