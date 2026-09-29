@@ -2,7 +2,7 @@
 
 Native Gravis UltraSound GF1 music and sound effects for the DOS game *Alien Carnage* (*Halloween Harry*). The patch uses the game's own decoded audio data, uploads samples into GUS DRAM, and mixes four music voices and four game effect channels in GF1 hardware. A 50 Hz GUS timer drives the music tracker. It does not use Sound Blaster DMA or software mixing for the patched audio.
 
-The patch supports two verified DOS executable sets: the build identified here as **1.2** from `Alien_Carnage_12.rar` and the **1.0** build found in the tested ISO and rip. The archive label distinguishes the former; its splash screen also says “ver acs 1.0”. Each of the 13 audio modules must match one complete supported set. Unknown or modified versions are rejected without patching.
+The patch supports two verified DOS builds, identified here as **1.0** and **1.2**. Their on-screen version labels are not a reliable way to distinguish them. The installer checks all 13 audio modules against the supported builds and rejects unknown, modified, or mixed sets without patching them.
 
 The user tested this release on a 386DX-40 with a GUS MAX, including mission 3. Other GF1 cards and game distributions have not been physically verified.
 
