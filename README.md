@@ -2,9 +2,9 @@
 
 Native Gravis UltraSound GF1 music and sound effects for the DOS game *Alien Carnage* (*Halloween Harry*). The patch uses the game's own decoded audio data, uploads samples into GUS DRAM, and mixes four music voices and four game effect channels in GF1 hardware. A 50 Hz GUS timer drives the music tracker. It does not use Sound Blaster DMA or software mixing for the patched audio.
 
-The patch supports two verified DOS builds, identified here as **1.0** and **1.2**. Their on-screen version labels are not a reliable way to distinguish them. The installer checks all 13 audio modules against the supported builds and rejects unknown, modified, or mixed sets without patching them.
+The patch supports two verified DOS builds, identified here as **1.0** and **1.2**. Their on-screen version labels are not a reliable way to distinguish them (both show v1.0). The installer checks all 13 audio modules against the supported builds and rejects unknown, modified, or mixed sets without patching them.
 
-The user tested this release on a 386DX-40 with a GUS MAX, including mission 3. Other GF1 cards and game distributions have not been physically verified.
+Tested on a 386DX-40 with a GUS MAX, including mission 2. Other GF1 cards and game distributions have not been physically verified.
 
 ## Requirements
 
@@ -42,3 +42,7 @@ nasm -f bin -o ../dist/INSTALL.COM install.asm
 ```
 
 NASM 2.x is required. After changing a target manifest, regenerate the unified installer table from the project root with `python3 tools/make_tables.py`, then rebuild both binaries. `python3 tools/read_log.py ACGUS.LOG` summarizes an optional diagnostic log. The GF1/tracker base was adapted from the MIT-licensed PRE2GUS/BB2GUS project; see `LICENSE-PRE2` for attribution.
+
+## AI usage disclosure
+
+This patch was developed with extensive AI assistance in analysis, coding, and documentation. I tested it on real DOS hardware. It is an unofficial community project.
