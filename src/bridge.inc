@@ -279,6 +279,7 @@ load_memory_module:
     xor si,si
     call gus_upload
     pop ds
+    call gus_upload_silence_guard
 .next_sample:
     add di,2
     cmp di,62
@@ -342,6 +343,7 @@ play_memory_sfx:
     mov eax,[sfx_next_address]
     movzx edx,cx
     add edx,eax
+    add edx,2                    ; silent endpoint + interpolation neighbour
     cmp edx,80000h
     ja .done
     mov [sfx_next_address],edx
@@ -362,6 +364,7 @@ play_memory_sfx:
     xor si,si
     call gus_upload
     pop ds
+    call gus_upload_silence_guard
     cmp byte [diag_mode],1
     jne .cached
     call diag_log_sample
@@ -380,7 +383,8 @@ play_memory_sfx:
     mov [voice_loop_high],ax
     mov [voice_end_high],ax
     mov ax,[voice_sample_length]
-    dec ax
+    ; A naturally stopped GF1 voice can still output its terminal sample.
+    ; Stop on the first silent guard byte, not the last source sample.
     add [voice_end_low],ax
     adc word [voice_end_high],0
     mov al,[request_sfx_pitch]

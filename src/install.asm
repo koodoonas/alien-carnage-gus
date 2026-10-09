@@ -312,7 +312,7 @@ copy_file:
     int 21h
     ret
 
-banner db 'ACGUS 1.0 unified installer - exact build validation',13,10,'$'
+banner db 'ACGUS 1.1 unified installer - exact build validation',13,10,'$'
 installed db 'Installed ACGUS.COM. Start the game with ACGUS.',13,10,'$'
 restored db 'Original game files restored. Backups retained.',13,10,'$'
 msg_usage db 'Usage: INSTALL or INSTALL /R (restore)',13,10,'$'

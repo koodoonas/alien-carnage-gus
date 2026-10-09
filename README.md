@@ -46,3 +46,4 @@ NASM 2.x is required. After changing a target manifest, regenerate the unified i
 ## AI usage disclosure
 
 This patch was developed with extensive AI assistance in analysis, coding, and documentation. I tested it on real DOS hardware. It is an unofficial community project.
+

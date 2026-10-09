@@ -1405,6 +1405,24 @@ gus_upload:
 ; ---------------------------------------------------------------------------
 ; Initial SFX bank upload
 
+; Append two signed-8-bit silence bytes after a sample. One-shot voices end
+; on the first; the second supplies the GF1 interpolation neighbour.
+; This costs upload work only, with no extra per-tick voice polling.
+gus_upload_silence_guard:
+    push ds
+    push si
+    push cx
+    push cs
+    pop ds
+    mov si,silence_guard
+    mov cx,2
+    call gus_upload
+    pop cx
+    pop si
+    pop ds
+    ret
+silence_guard db 0,0
+
 install_vectors:
     mov ax, 3521h
     int 21h
@@ -1763,7 +1781,7 @@ trigger_music_channel:
     mov ax, [voice_begin_high]
     mov [voice_end_high], ax
     mov ax, [voice_sample_length]
-    dec ax
+    ; One-shot sample ends on the uploaded silent guard byte.
     add [voice_end_low], ax
     adc word [voice_end_high], 0
     mov byte [voice_mode], 0
@@ -2116,7 +2134,7 @@ gus_quiet:
 
 
 msg_preload db 'Starting GF1 bridge...',13,10,'$'
-msg_banner       db 13,10,'ACGUS 1.0 - native Gravis UltraSound GF1 audio',13,10,'$'
+msg_banner       db 13,10,'ACGUS 1.1 - native Gravis UltraSound GF1 audio',13,10,'$'
 msg_bad_args     db 'Usage: ACGUS [/T] [/D] [/P-100..100]  (or -vp-100..100)',13,10,'$'
 msg_pan          db 'GF1 music stereo width: $'
 msg_pan_end      db '%',13,10,'$'
