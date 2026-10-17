@@ -4,7 +4,7 @@ Native Gravis UltraSound GF1 music and sound effects for the DOS game *Alien Car
 
 The patch supports two verified DOS builds, identified here as **1.0** and **1.2**. Their on-screen version labels are not a reliable way to distinguish them (both show v1.0). The installer checks all 13 audio modules against the supported builds and rejects unknown, modified, or mixed sets without patching them.
 
-Tested on a 386DX-40 with a GUS MAX, including mission 3. Other GF1 cards and game distributions have not been physically verified.
+Tested on a 386DX-40 with a GUS MAX and on a 486-133 with Gus PnP.
 
 ## Video demonstration
 
